@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="skin2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0dcc8"/>
+      <stop offset="100%" stop-color="#d4b89a"/>
+    </linearGradient>
+    <linearGradient id="silk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="50%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#111"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="500" fill="#0c0a09"/>
+
+  <!-- Soft ambient -->
+  <ellipse cx="200" cy="180" rx="160" ry="140" fill="#2a1f1a" opacity="0.35"/>
+
+  <!-- Nude torso & upper body, seated pose suggestion -->
+  <!-- Head -->
+  <ellipse cx="200" cy="110" rx="36" ry="42" fill="url(#skin2)"/>
+  <!-- Blindfold -->
+  <rect x="155" y="95" width="90" height="22" rx="4" fill="url(#silk)"/>
+  <rect x="145" y="100" width="20" height="12" rx="2" fill="#111"/>
+  <rect x="235" y="100" width="20" height="12" rx="2" fill="#111"/>
+
+  <!-- Neck & shoulders -->
+  <path d="M175 145 Q200 135 225 145 L240 175 Q200 165 160 175 Z" fill="url(#skin2)"/>
+
+  <!-- Torso -->
+  <path d="M155 170 Q200 155 245 170 L250 300 Q200 320 150 300 Z" fill="url(#skin2)"/>
+
+  <!-- Breasts -->
+  <ellipse cx="178" cy="205" rx="26" ry="22" fill="#e0c4a8"/>
+  <ellipse cx="222" cy="205" rx="26" ry="22" fill="#e0c4a8"/>
+  <circle cx="178" cy="208" r="4.5" fill="#c9a07a" opacity="0.85"/>
+  <circle cx="222" cy="208" r="4.5" fill="#c9a07a" opacity="0.85"/>
+
+  <!-- Arms resting on thighs suggestion -->
+  <path d="M155 185 Q120 240 130 310" stroke="url(#skin2)" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <path d="M245 185 Q280 240 270 310" stroke="url(#skin2)" stroke-width="20" fill="none" stroke-linecap="round"/>
+
+  <!-- Hands -->
+  <ellipse cx="130" cy="320" rx="14" ry="18" fill="url(#skin2)"/>
+  <ellipse cx="270" cy="320" rx="14" ry="18" fill="url(#skin2)"/>
+
+  <!-- Hips / lower -->
+  <path d="M150 295 Q200 315 250 295 L245 380 Q200 400 155 380 Z" fill="url(#skin2)"/>
+  <ellipse cx="200" cy="360" rx="20" ry="14" fill="#c9a07a" opacity="0.35"/>
+
+  <!-- Thighs -->
+  <path d="M160 375 Q140 430 145 470" stroke="url(#skin2)" stroke-width="32" fill="none" stroke-linecap="round"/>
+  <path d="M240 375 Q260 430 255 470" stroke="url(#skin2)" stroke-width="32" fill="none" stroke-linecap="round"/>
+
+  <text x="200" y="40" text-anchor="middle" fill="#7a6a5a" font-family="Georgia, serif" font-size="13" letter-spacing="2">BLINDFOLD</text>
+</svg>
