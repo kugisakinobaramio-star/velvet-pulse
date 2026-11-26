@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velvet Pulse — Coded Visuals</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #0a0807;
+      color: #c9b8a8;
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 400;
+      letter-spacing: 8px;
+      color: #e8d5c4;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      opacity: 0.6;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .warning {
+      text-align: center;
+      font-size: 0.85rem;
+      opacity: 0.5;
+      margin-bottom: 50px;
+      letter-spacing: 1px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 40px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .piece {
+      background: #120e0c;
+      border: 1px solid #2a221c;
+      border-radius: 4px;
+      overflow: hidden;
+      transition: border-color 0.3s;
+    }
+
+    .piece:hover {
+      border-color: #5a4a3a;
+    }
+
+    .piece img, .piece object {
+      width: 100%;
+      display: block;
+      background: #0c0a09;
+    }
+
+    .caption {
+      padding: 18px 20px;
+      text-align: center;
+      font-size: 1.05rem;
+      letter-spacing: 2px;
+    }
+
+    .caption span {
+      display: block;
+      font-size: 0.8rem;
+      opacity: 0.5;
+      margin-top: 6px;
+      letter-spacing: 1px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 80px;
+      font-size: 0.9rem;
+      opacity: 0.4;
+      letter-spacing: 1px;
+    }
+
+    a { color: #c9b8a8; text-decoration: none; border-bottom: 1px solid #3a2a20; }
+    a:hover { color: #e8d5c4; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VELVET PULSE</h1>
+    <p class="subtitle">Coded Visuals</p>
+  </header>
+
+  <p class="warning">18+ · Pure SVG · No external images · All forms drawn in code</p>
+
+  <div class="gallery">
+    <div class="piece">
+      <object data="the-key.svg" type="image/svg+xml" width="100%" height="auto">The Key</object>
+      <div class="caption">
+        The Key
+        <span>She left it on the table like it was nothing</span>
+      </div>
+    </div>
+
+    <div class="piece">
+      <object data="blindfold.svg" type="image/svg+xml" width="100%" height="auto">Blindfold</object>
+      <div class="caption">
+        Blindfold
+        <span>Put it on. Sit. Wait.</span>
+      </div>
+    </div>
+
+    <div class="piece">
+      <object data="after-rain.svg" type="image/svg+xml" width="100%" height="auto">After the Rain</object>
+      <div class="caption">
+        After the Rain
+        <span>Two people who shouldn’t touch</span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>All visuals are hand-coded SVG · <a href="../">← back to stories</a></p>
+  </footer>
+</body>
+</html>
